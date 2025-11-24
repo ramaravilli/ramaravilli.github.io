@@ -2,96 +2,119 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
-    - name: Languages
-      value: English, German
+      value: Aravilli Atchuta Ram
+    - name: Role
+      value: Software Engineer at Visa
+    - name: Location
+      value: Bangalore, India
+    - name: Email
+      value: aravilliatchutaram [at] gmail [dot] com
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: Bachelor of Technology in Computer Science & Engineering
+      institution: PES University, Bangalore, India
+      year: Dec 2021 – June 2025
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
-      description:
-        - Description 1.
-        - Description 2.
+        - "GPA: 9.23/10.00"
+        - "Capstone Project: Sector-Specific Stock Recommender Systems"
+        - Developed a hybrid system combining deep learning forecasting and a fine-tuned LLM for sector-specific stock recommendations.
 
-- title: Experience
+- title: Work Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Software Engineer
+      institution: Visa Inc., Bangalore, India
+      year: July 2025 - Present
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - Developing a POC using supervised ML for automated calibration of ISO 8583 data elements.
+        - Identifying misconfigured data elements responsible for transaction failures.
+        - "Innovation: Prati Yodha (July 2025 - Sept 2025). Proposed a generative-AI agent for automating the champion-challenger MLOps lifecycle. Recognized as a Technical Innovation by Visa IP Committee."
+
+    - title: Semester Intern
+      institution: Visa Inc., Bangalore, India
+      year: Jan 2025 - June 2025
       description:
-        - Description 1.
-        - Description 2.
+        - Designed and prototyped RCA Copilot, a multi-agent system for code search, metric analysis, and incident pattern mining.
+        - Collaborated with senior engineers to demonstrate feasibility for automated incident triaging in production.
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
+    - title: Software Engineering and ML Intern
+      institution: Visa Inc., Bangalore, India
+      year: June 2024 - Aug 2024
       description:
-
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
+        - Developed a scalable embedding-based database comparison tool to validate a custom data replication solution, efficiently handling∼10M-record tables.
+        - Proposed a novel framework leveraging embeddings and recognized with a Technical Innovation Award by the VISA IP Team for impactful innovation.
+- title: Research Experience
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: Sector-Specific Stock Recommender Systems
+      institution: PES University (Supervisor Prof. Bharathi R)
+      year: Feb 2024 - Dec 2024
+      description:
+        - Fine-tuned Llama-3.1-8B-Instruct with QLORA on a curated financial news corpus to generate sector-specific stock recommendations.
+        - Proposed a hybrid framework combining price forecasting, sentiment analysis, and performance indicators.
+
+    - title: Explainable and Interpretable Isolation Forest
+      institution: IDRBT (Supervisor Prof. Vadlamani Ravi)
+      year: June 2024 - Aug 2024
+      description:
+        - Proposed a hybrid model integrating Isolation Forest with Decision Trees, combining efficient anomaly identification with rule-based explanations.
+        - Demonstrated strong detection performance across multiple datasets with human-interpretable insights.
+
+    - title: AML Classification in Blockchain via GCN Hybrids
+      institution: IDRBT (Supervisor Prof. Vadlamani Ravi)
+      year: Feb 2024 - June 2024
+      description:
+        - Developed hybrid models combining Graph Convolutional Networks (GCNs) with PNN, WNN, and RBFN architectures.
+        - Achieved superior detection accuracy on the Elliptic dataset compared to stand-alone GCN baselines.
+
+    - title: Deep Reinforcement Learning for Financial Forecasting
+      institution: IDRBT (Supervisor Prof. Vadlamani Ravi)
+      year: May 2023 - Aug 2023
+      description:
+        - Investigated RL approaches (DDPG, PPO, RDPG) for stock market forecasting against baseline ML models.
+        - Designed a Spark Streaming framework for real-time financial time series analysis.
 
 - title: Honors and Awards
   type: time_table
   contents:
-    - year: 1921
+    - year: 2025
       items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
+        - "Best Paper Award: ICDMAI 2025 (Won for 2 papers)"
+        - "Technical Innovation Award: Visa IP Committee (Prati Yodha)"
+    - year: 2024
       items:
-        - Max Planck Medal
+        - "Amazon ML Challenge: Ranked 65th nationally (Top 5% of 2000+ teams)"
+        - "Prof. MRD Scholarship Award: Top 5% among 1000+ students at PES University"
+        - "Technical Innovation Award: Visa IP Committee (Samata)"
+    - year: 2023
+      items:
+        - "Winner: Karnataka State Police Hackathon (150+ teams)"
+        - "First Runner-up: HACK'E'LTH Hackathon, GE HealthCare (100+ teams)"
+    - year: 2021
+      items:
+        - "JEE Mains: Secured 98.8 percentile (among 1.2 million candidates)"
 
-- title: Academic Interests
+- title: Technical Skills
   type: nested_list
   contents:
-    - title: Topic 1.
+    - title: Programming Languages & Databases
       items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
+        - Python, C, R, Golang, SQL
+        - MongoDB, IBM DB2, MySQL
+    - title: Machine Learning Frameworks
       items:
-        - Description 1.
-        - Description 2.
+        - PyTorch, Scikit-learn, HuggingFace, NumPy, Pandas
+    - title: Big Data
+      items:
+        - Hadoop, Kafka, Zookeeper, PySpark
+    - title: Tools
+      items:
+        - Git, GitHub Copilot, Jenkins, Docker, Kubernetes, Grafana, Linux
 
-- title: Other Interests
+- title: Invited Talks
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - "Privacy-Preserving Machine Learning: Talk on Privacy risks, PETs, and Gen-AI privacy at CoDMAV, PES University."
+    - "Federated Learning (Flower Framework): Hands-on demo for undergrad students at CoDMAV, PES University."

@@ -42,7 +42,7 @@ a.btncv:hover {
  * CV TIME_TABLE styles
  *****************************/
 
-p.location {
+ p.location {
   font-size: 0.7rem;
   white-space: nowrap;
 }
@@ -82,6 +82,24 @@ div.container-links {
   margin-bottom: 0.5rem;
 }
 
+/* --- ADDED FIXES FOR LAYOUT SPACING --- */
+
+/* 1. Force long dates (like "July 2025 - Present") to wrap 
+      onto two lines so they don't widen the column 
+*/
+.list-group-item .badge {
+  white-space: normal !important;
+  display: inline-block;
+  text-align: center;
+  min-width: 75px; /* Keeps the badge looking uniform */
+  line-height: 1.2;
+  padding: 0.5em;
+}
+
+/* 2. Enforce spacing between the Date column and the Job Title column */
+.list-group-item .row > div:nth-child(2) {
+  padding-left: 1.5rem !important; /* Adds breathing room */
+}
 /*****************************
  * CV MAP styles
  *****************************/

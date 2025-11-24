@@ -734,12 +734,13 @@ footer.sticky-bottom {
   }
 
   h2.bibliography {
-    color: var(--global-divider-color);
+    color: black !important;           /* Changed from divider-color to Black */
+    font-weight: 900 !important;       /* Added Extra Bold weight */
     border-top: 1px solid var(--global-divider-color);
     padding-top: 1rem;
     margin-top: 2rem;
     text-align: right;
-  }
+}
 
   ol.bibliography {
     list-style: none;
