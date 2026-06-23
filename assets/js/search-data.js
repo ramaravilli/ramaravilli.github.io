@@ -34,7 +34,7 @@ ninja.data = [{
         title: 'CV',
         section: 'Socials',
         handler: () => {
-          window.open("/assets/pdf/CV_RAM_APRIL_2026.pdf", "_blank");
+          window.open("/assets/pdf/CV_RAM_JUNE_26.pdf", "_blank");
         },
       },{
         id: 'social-github',
