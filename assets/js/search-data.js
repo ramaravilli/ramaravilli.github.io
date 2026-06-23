@@ -29,6 +29,9 @@ ninja.data = [{
           section: "News",},{id: "news-paper-on-enhancing-safety-in-agentic-vlms-accepted-at-neurips-workshop-2025",
           title: 'Paper on Enhancing Safety in Agentic VLMs accepted at NEURIPS Workshop 2025!',
           description: "",
+          section: "News",},{id: "news-excited-to-start-my-phd-in-computer-science-at-the-university-of-minnesota-advised-by-prof-vipin-kumar",
+          title: 'Excited to start my PhD in Computer Science at the University of Minnesota,...',
+          description: "",
           section: "News",},{
         id: 'social-cv',
         title: 'CV',
