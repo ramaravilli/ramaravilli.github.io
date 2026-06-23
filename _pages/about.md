@@ -25,7 +25,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am a first-year **PhD student in Computer Science at the University of Minnesota**, where my research interests lie at the intersection of **Artificial Intelligence and Earth Sciences**. I am broadly interested in applying deep learning and machine learning methods to tackle challenges in climate, geoscience, and environmental domains.
+I am a first-year **PhD student in Computer Science at the University of Minnesota** being advised by [Prof. Vipin Kumar](https://vkumar.umn.edu/). My research interests lie at the intersection of **Artificial Intelligence and Earth Sciences**. I am broadly interested in applying deep learning and machine learning methods to tackle challenges in climate, geoscience, and environmental domains.
 
 Prior to joining UMN, I was a **Software Engineer at Visa** in Bangalore, where I worked on building resilient financial systems and applying machine learning to real-world challenges. Before that, I was an undergraduate research intern at the Institute for Development and Research in Banking Technology (**IDRBT**), where I was advised by [Prof. Ravi Vadlamani](https://www.idrbt.ac.in/dr-v-ravi/). During that time, I worked on deep reinforcement learning for financial forecasting and graph-based anomaly detection.
 

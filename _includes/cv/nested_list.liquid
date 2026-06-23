@@ -2,11 +2,13 @@
   {% for content in entry.contents %}
     <li class="list-group-item">
       <h5 class="font-weight-bold">{{ content.title }}</h5>
-      
+
       {% if content.items %}
         <ul class="subitems">
           {% for item in content.items %}
-            <li><span class="subitem">{{ item }}</span></li>
+            <li>
+              <span class="subitem">{{ item }}</span>
+            </li>
           {% endfor %}
         </ul>
       {% endif %}
